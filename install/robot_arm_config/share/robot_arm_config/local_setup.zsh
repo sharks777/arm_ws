@@ -1,0 +1,1 @@
+/home/shark/arm_ws/build/robot_arm_config/ament_cmake_environment_hooks/local_setup.zsh

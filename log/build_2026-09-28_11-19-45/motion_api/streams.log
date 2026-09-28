@@ -1,0 +1,22 @@
+[0.619s] Invoking command in '/home/shark/arm_ws/build/motion_api': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/motion_api/build --no-deps symlink_data
+[0.812s] running develop
+[0.927s] running egg_info
+[0.927s] creating motion_api.egg-info
+[0.938s] writing motion_api.egg-info/PKG-INFO
+[0.938s] writing dependency_links to motion_api.egg-info/dependency_links.txt
+[0.938s] writing requirements to motion_api.egg-info/requires.txt
+[0.938s] writing top-level names to motion_api.egg-info/top_level.txt
+[0.938s] writing manifest file 'motion_api.egg-info/SOURCES.txt'
+[0.960s] reading manifest file 'motion_api.egg-info/SOURCES.txt'
+[0.960s] writing manifest file 'motion_api.egg-info/SOURCES.txt'
+[0.971s] running build_ext
+[0.972s] Creating /home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages/motion-api.egg-link (link to .)
+[0.972s] 
+[0.972s] Installed /home/shark/arm_ws/build/motion_api
+[0.973s] running symlink_data
+[0.973s] creating /home/shark/arm_ws/install/motion_api/share/ament_index
+[0.973s] creating /home/shark/arm_ws/install/motion_api/share/ament_index/resource_index
+[0.973s] creating /home/shark/arm_ws/install/motion_api/share/ament_index/resource_index/packages
+[0.973s] symbolically linking /home/shark/arm_ws/build/motion_api/resource/motion_api -> /home/shark/arm_ws/install/motion_api/share/ament_index/resource_index/packages
+[0.973s] symbolically linking /home/shark/arm_ws/build/motion_api/package.xml -> /home/shark/arm_ws/install/motion_api/share/motion_api
+[0.990s] Invoked command in '/home/shark/arm_ws/build/motion_api' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/motion_api/build --no-deps symlink_data

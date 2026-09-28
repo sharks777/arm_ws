@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating motion_api.egg-info
+writing motion_api.egg-info/PKG-INFO
+writing dependency_links to motion_api.egg-info/dependency_links.txt
+writing requirements to motion_api.egg-info/requires.txt
+writing top-level names to motion_api.egg-info/top_level.txt
+writing manifest file 'motion_api.egg-info/SOURCES.txt'
+reading manifest file 'motion_api.egg-info/SOURCES.txt'
+writing manifest file 'motion_api.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages/motion-api.egg-link (link to .)
+
+Installed /home/shark/arm_ws/build/motion_api
+running symlink_data
+creating /home/shark/arm_ws/install/motion_api/share/ament_index
+creating /home/shark/arm_ws/install/motion_api/share/ament_index/resource_index
+creating /home/shark/arm_ws/install/motion_api/share/ament_index/resource_index/packages
+symbolically linking /home/shark/arm_ws/build/motion_api/resource/motion_api -> /home/shark/arm_ws/install/motion_api/share/ament_index/resource_index/packages
+symbolically linking /home/shark/arm_ws/build/motion_api/package.xml -> /home/shark/arm_ws/install/motion_api/share/motion_api

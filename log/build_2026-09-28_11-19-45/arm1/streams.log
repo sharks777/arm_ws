@@ -1,0 +1,41 @@
+[0.619s] Invoking command in '/home/shark/arm_ws/build/arm1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/arm1/build --no-deps symlink_data
+[0.815s] running develop
+[0.930s] running egg_info
+[0.931s] creating arm1.egg-info
+[0.941s] writing arm1.egg-info/PKG-INFO
+[0.941s] writing dependency_links to arm1.egg-info/dependency_links.txt
+[0.941s] writing entry points to arm1.egg-info/entry_points.txt
+[0.941s] writing requirements to arm1.egg-info/requires.txt
+[0.942s] writing top-level names to arm1.egg-info/top_level.txt
+[0.942s] writing manifest file 'arm1.egg-info/SOURCES.txt'
+[0.964s] reading manifest file 'arm1.egg-info/SOURCES.txt'
+[0.964s] writing manifest file 'arm1.egg-info/SOURCES.txt'
+[0.976s] running build_ext
+[0.976s] Creating /home/shark/arm_ws/install/arm1/lib/python3.12/site-packages/arm1.egg-link (link to .)
+[0.976s] Installing joint_control script to /home/shark/arm_ws/install/arm1/lib/arm1
+[0.976s] Installing test_arm_action script to /home/shark/arm_ws/install/arm1/lib/arm1
+[0.977s] Installing test_arm_hand script to /home/shark/arm_ws/install/arm1/lib/arm1
+[0.977s] Installing test_arm_publisher script to /home/shark/arm_ws/install/arm1/lib/arm1
+[0.977s] 
+[0.977s] Installed /home/shark/arm_ws/build/arm1
+[0.977s] running symlink_data
+[0.978s] creating /home/shark/arm_ws/install/arm1/share/ament_index
+[0.978s] creating /home/shark/arm_ws/install/arm1/share/ament_index/resource_index
+[0.978s] creating /home/shark/arm_ws/install/arm1/share/ament_index/resource_index/packages
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/resource/arm1 -> /home/shark/arm_ws/install/arm1/share/ament_index/resource_index/packages
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/package.xml -> /home/shark/arm_ws/install/arm1/share/arm1
+[0.978s] creating /home/shark/arm_ws/install/arm1/share/arm1/urdf
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/urdf/robot.urdf -> /home/shark/arm_ws/install/arm1/share/arm1/urdf
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/urdf/robot_ros2_control.urdf -> /home/shark/arm_ws/install/arm1/share/arm1/urdf
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/urdf/robot_arm_ros2_controller.urdf -> /home/shark/arm_ws/install/arm1/share/arm1/urdf
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/urdf/robot_arm.urdf -> /home/shark/arm_ws/install/arm1/share/arm1/urdf
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/urdf/rviz.rviz -> /home/shark/arm_ws/install/arm1/share/arm1/urdf
+[0.978s] creating /home/shark/arm_ws/install/arm1/share/arm1/launch
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/launch/robot_arm_control_launch.py -> /home/shark/arm_ws/install/arm1/share/arm1/launch
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/launch/robot_control_launch.py -> /home/shark/arm_ws/install/arm1/share/arm1/launch
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/launch/show_urdf_launch.py -> /home/shark/arm_ws/install/arm1/share/arm1/launch
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/launch/robot_arm_launch.py -> /home/shark/arm_ws/install/arm1/share/arm1/launch
+[0.978s] creating /home/shark/arm_ws/install/arm1/share/arm1/config
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/config/robot_ros2_controllers.yaml -> /home/shark/arm_ws/install/arm1/share/arm1/config
+[0.978s] symbolically linking /home/shark/arm_ws/build/arm1/config/arm_controllers.yaml -> /home/shark/arm_ws/install/arm1/share/arm1/config
+[1.002s] Invoked command in '/home/shark/arm_ws/build/arm1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/arm1/build --no-deps symlink_data

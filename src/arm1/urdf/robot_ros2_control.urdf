@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<robot name="simplerobot">
+
+   <!--机械部分-->
+   <link name="base_link">
+      <visual>
+         <geometry>
+            <box size="0.1 0.1 0.1"/>
+         </geometry>
+         <origin xyz="0 0 0.05" rpy="0 0 0"/>
+         <material name="blue">
+            <color rgba="0 0 1.0 1.0"/>
+         </material>
+      </visual>
+   </link>
+   
+   <link name="link1">
+      <visual>
+         <geometry>
+            <box size="0.1 0.1 0.1"/>
+         </geometry>
+         <origin xyz="0 0 0.05" rpy="0 0 0"/>
+         <material name="yellow">
+            <color rgba="1.0 1.0 0 1.0"/>
+         </material>
+      </visual>
+    </link>
+    
+    <joint name="joint1" type="revolute">
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.57" upper="1.57" effort="10" velocity="1"/>
+    </joint>
+    <ros2_control name='FakeSystem' type='system'>
+  <hardware>
+    <!-- By default, set up controllers for simulation. This won't work on real hardware -->
+    <plugin>mock_components/GenericSystem</plugin>
+  </hardware>
+  <joint name="joint1">
+    <command_interface name="position">
+    </command_interface>
+    <state_interface name="position">
+      <param name="initial_value">0.0</param>
+    </state_interface>
+  </joint>
+</ros2_control>
+
+</robot>

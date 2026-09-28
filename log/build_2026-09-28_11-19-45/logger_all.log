@@ -1,0 +1,253 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77183eb7f1d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77183eb7ef90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77183eb7ef90>>)
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.087s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shark/arm_ws'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'ros'
+[0.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm1' with type 'ros.ament_python' and name 'arm1'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'ros'
+[0.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_api' with type 'ros.ament_python' and name 'motion_api'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'ros'
+[0.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_arm_config' with type 'ros.ament_cmake' and name 'robot_arm_config'
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.120s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shark/arm_ws/install/robot_arm_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.120s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shark/arm_ws/install/motion_api' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.120s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shark/arm_ws/install/arm1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.120s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/shark/arm_ws/install/robot_arm_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.121s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/shark/arm_ws/install
+[0.122s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 409 installed packages in /opt/ros/jazzy
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'arm1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shark/arm_ws/build/arm1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shark/arm_ws/install/arm1', 'merge_install': False, 'path': '/home/shark/arm_ws/src/arm1', 'symlink_install': True, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'motion_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shark/arm_ws/build/motion_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shark/arm_ws/install/motion_api', 'merge_install': False, 'path': '/home/shark/arm_ws/src/motion_api', 'symlink_install': True, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shark/arm_ws/build/robot_arm_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shark/arm_ws/install/robot_arm_config', 'merge_install': False, 'path': '/home/shark/arm_ws/src/robot_arm_config', 'symlink_install': True, 'test_result_base': None}
+[0.153s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.154s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shark/arm_ws/src/arm1' with build type 'ament_python'
+[0.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm1', 'ament_prefix_path')
+[0.156s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/arm1/share/arm1/hook/ament_prefix_path.ps1'
+[0.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/install/arm1/share/arm1/hook/ament_prefix_path.dsv'
+[0.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/arm1/share/arm1/hook/ament_prefix_path.sh'
+[0.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.159s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shark/arm_ws/src/motion_api' with build type 'ament_python'
+[0.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_api', 'ament_prefix_path')
+[0.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/motion_api/share/motion_api/hook/ament_prefix_path.ps1'
+[0.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/install/motion_api/share/motion_api/hook/ament_prefix_path.dsv'
+[0.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/motion_api/share/motion_api/hook/ament_prefix_path.sh'
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shark/arm_ws/src/arm1'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shark/arm_ws/src/motion_api'
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shark/arm_ws/build/arm1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/arm1/build --no-deps symlink_data
+[0.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shark/arm_ws/build/motion_api': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/motion_api/build --no-deps symlink_data
+[1.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_api', 'pythonpath_develop')
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/build/motion_api/share/motion_api/hook/pythonpath_develop.ps1'
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shark/arm_ws/build/motion_api' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/motion_api/build --no-deps symlink_data
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/build/motion_api/share/motion_api/hook/pythonpath_develop.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/build/motion_api/share/motion_api/hook/pythonpath_develop.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/motion_api' for CMake module files
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/motion_api' for CMake config files
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/motion_api/lib'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/motion_api/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/motion_api/lib/pkgconfig/motion_api.pc'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages'
+[1.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_api', 'pythonpath')
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/motion_api/share/motion_api/hook/pythonpath.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/install/motion_api/share/motion_api/hook/pythonpath.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/motion_api/share/motion_api/hook/pythonpath.sh'
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/motion_api/bin'
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_api)
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/motion_api/share/motion_api/package.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shark/arm_ws/install/motion_api/share/motion_api/package.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/motion_api/share/motion_api/package.sh'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/motion_api/share/motion_api/package.bash'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/motion_api/share/motion_api/package.zsh'
+[1.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shark/arm_ws/install/motion_api/share/colcon-core/packages/motion_api)
+[1.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm1', 'pythonpath_develop')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/build/arm1/share/arm1/hook/pythonpath_develop.ps1'
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shark/arm_ws/build/arm1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shark/arm_ws/build/arm1/build --no-deps symlink_data
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/build/arm1/share/arm1/hook/pythonpath_develop.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/build/arm1/share/arm1/hook/pythonpath_develop.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/arm1' for CMake module files
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/arm1' for CMake config files
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/arm1/lib'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/arm1/bin'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/arm1/lib/pkgconfig/arm1.pc'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages'
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm1', 'pythonpath')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/arm1/share/arm1/hook/pythonpath.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/install/arm1/share/arm1/hook/pythonpath.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/arm1/share/arm1/hook/pythonpath.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/arm1/bin'
+[1.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm1)
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/arm1/share/arm1/package.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shark/arm_ws/install/arm1/share/arm1/package.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/arm1/share/arm1/package.sh'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/arm1/share/arm1/package.bash'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/arm1/share/arm1/package.zsh'
+[1.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shark/arm_ws/install/arm1/share/colcon-core/packages/arm1)
+[1.161s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shark/arm_ws/src/robot_arm_config' with build type 'ament_cmake'
+[1.161s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shark/arm_ws/src/robot_arm_config'
+[1.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shark/arm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/shark/arm_ws/install/arm1:/home/shark/arm_ws/install/robot_arm_config:/home/shark/arm_ws/install/motion_api:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shark/arm_ws/install/motion_api:/home/shark/arm_ws/install/arm1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:/home/shark/arm_ws/build/motion_api:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/shark/arm_ws/src/robot_arm_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shark/arm_ws/install/robot_arm_config
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shark/arm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/shark/arm_ws/install/arm1:/home/shark/arm_ws/install/robot_arm_config:/home/shark/arm_ws/install/motion_api:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shark/arm_ws/install/motion_api:/home/shark/arm_ws/install/arm1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:/home/shark/arm_ws/build/motion_api:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/shark/arm_ws/src/robot_arm_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shark/arm_ws/install/robot_arm_config
+[1.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shark/arm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/shark/arm_ws/install/arm1:/home/shark/arm_ws/install/robot_arm_config:/home/shark/arm_ws/install/motion_api:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shark/arm_ws/install/motion_api:/home/shark/arm_ws/install/arm1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:/home/shark/arm_ws/build/motion_api:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/shark/arm_ws/build/robot_arm_config -- -j4 -l4
+[1.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shark/arm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/shark/arm_ws/install/arm1:/home/shark/arm_ws/install/robot_arm_config:/home/shark/arm_ws/install/motion_api:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shark/arm_ws/install/motion_api:/home/shark/arm_ws/install/arm1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:/home/shark/arm_ws/build/motion_api:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/shark/arm_ws/build/robot_arm_config -- -j4 -l4
+[1.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shark/arm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/shark/arm_ws/install/arm1:/home/shark/arm_ws/install/robot_arm_config:/home/shark/arm_ws/install/motion_api:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shark/arm_ws/install/motion_api:/home/shark/arm_ws/install/arm1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:/home/shark/arm_ws/build/motion_api:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/shark/arm_ws/build/robot_arm_config
+[1.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_config)
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config' for CMake module files
+[1.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shark/arm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/shark/arm_ws/install/arm1:/home/shark/arm_ws/install/robot_arm_config:/home/shark/arm_ws/install/motion_api:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shark/arm_ws/install/motion_api:/home/shark/arm_ws/install/arm1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shark/arm_ws/build/arm1:/home/shark/arm_ws/install/arm1/lib/python3.12/site-packages:/home/shark/arm_ws/build/motion_api:/home/shark/arm_ws/install/motion_api/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/shark/arm_ws/build/robot_arm_config
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config' for CMake config files
+[1.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_config', 'cmake_prefix_path')
+[1.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.ps1'
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.dsv'
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.sh'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/bin'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/lib/pkgconfig/robot_arm_config.pc'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/lib/python3.12/site-packages'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/bin'
+[1.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.ps1'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.dsv'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.sh'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.bash'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.zsh'
+[1.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shark/arm_ws/install/robot_arm_config/share/colcon-core/packages/robot_arm_config)
+[1.949s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_config)
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config' for CMake module files
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config' for CMake config files
+[1.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_config', 'cmake_prefix_path')
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.dsv'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.sh'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/bin'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/lib/pkgconfig/robot_arm_config.pc'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/lib/python3.12/site-packages'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shark/arm_ws/install/robot_arm_config/bin'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.dsv'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.sh'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.bash'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/shark/arm_ws/install/robot_arm_config/share/robot_arm_config/package.zsh'
+[1.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shark/arm_ws/install/robot_arm_config/share/colcon-core/packages/robot_arm_config)
+[1.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.953s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.956s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.957s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.957s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.965s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shark/arm_ws/install/local_setup.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shark/arm_ws/install/_local_setup_util_ps1.py'
+[1.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shark/arm_ws/install/setup.ps1'
+[1.967s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shark/arm_ws/install/local_setup.sh'
+[1.967s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shark/arm_ws/install/_local_setup_util_sh.py'
+[1.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shark/arm_ws/install/setup.sh'
+[1.968s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shark/arm_ws/install/local_setup.bash'
+[1.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shark/arm_ws/install/setup.bash'
+[1.969s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shark/arm_ws/install/local_setup.zsh'
+[1.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shark/arm_ws/install/setup.zsh'
